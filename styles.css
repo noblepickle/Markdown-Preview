@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__editor,
+.container__preview {
+    width: 45%;
+    min-height: 90vh;
+    margin: 0.7em;
+}
+
+textarea {
+    width: 100%;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+
+#preview {
+    min-height: 70%;
+}
